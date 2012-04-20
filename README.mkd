@@ -1,5 +1,6 @@
 #django-buildout-starter#
-http://github.com/rfkrocktk/django-buildout-starter
+
+<small>http://github.com/rfkrocktk/django-buildout-starter</small>
 
 This is a wonderful little Buildout project to help get you started with Django 
 development aided by the wonderful dependency management provided by the 
@@ -23,3 +24,10 @@ The important files and folders to change from the beginning are the following:
 
 If you have any ideas for making this starter project better or for reporting 
 a bug in the initial layout/configuration, please use GitHub's issue tracker.
+
+###Links###
+
+[setuptools documentation.](http://pypi.python.org/pypi/setuptools)   
+[setuptools tutorial.](http://parijatmishra.wordpress.com/2008/10/08/python-packaging-setuptools-and-eggs/)    
+[zc:buildout homepage](http://www.buildout.org/)   
+[zc:buildout Tutorial](http://www.buildout.org/docs/tutorial.html)   
