@@ -1,4 +1,4 @@
-#django-buildout-starter#   
+#django-buildout-starter#
 http://github.com/rfkrocktk/django-buildout-starter
 
 This is a wonderful little Buildout project to help get you started with Django 
