@@ -1,0 +1,25 @@
+#django-buildout-starter#   
+http://github.com/rfkrocktk/django-buildout-starter
+
+This is a wonderful little Buildout project to help get you started with Django 
+development aided by the wonderful dependency management provided by the 
+zc:buildout project. 
+
+The important files and folders to change from the beginning are the following:
+
+ * `.gitignore` - As with any Git project, modify this file to make sure that 
+ certain things are being automatically included/excluded according to your 
+ liking. **django-buildout-starter** provides reasonable defaults, of course,
+ but feel free to customize.
+ * `setup.py` - This file is the standard Python setup file which describes 
+ project dependencies and information. It also comes in handy should you ever
+ desire to publish your application to the Python Package Index.
+ * `buildout.cfg` - This file contains your zc:buildout recipes which handle 
+ generation of a Python library, a Django command-line, as well as PyDev support
+ for starters. 
+ * `src/djangobuildoutstarter` - Rename this folder to the name of your new 
+ project, but be sure to rename things in `setup.py`, `buildout.cfg`, and in the
+ project's `settings.py` file so as to keep references up to date.
+
+If you have any ideas for making this starter project better or for reporting 
+a bug in the initial layout/configuration, please use GitHub's issue tracker.
