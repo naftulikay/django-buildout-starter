@@ -1,0 +1,23 @@
+# Compiled Python Files
+*.py[co]
+
+# Build Directories
+bin
+build
+develop-eggs
+dist
+eggs
+parts
+sdist
+var
+
+# Packages
+*.egg-info
+*.egg
+
+# Other Per-Machine Settings Files
+.installed.cfg
+.pydevproject
+.pydevproject.bak
+*.swp
+src/*/migrations
